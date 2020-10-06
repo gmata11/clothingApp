@@ -13,6 +13,14 @@
 		0E64D4CF252C9DD600D21B26 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E64D4CE252C9DD600D21B26 /* Preview Assets.xcassets */; };
 		0E64D4DA252C9DD600D21B26 /* clothingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E64D4D9252C9DD600D21B26 /* clothingAppTests.swift */; };
 		0E64D4E5252C9DD700D21B26 /* clothingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E64D4E4252C9DD700D21B26 /* clothingAppUITests.swift */; };
+		0E64D4F9252CA23000D21B26 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E64D4F8252CA23000D21B26 /* Home.swift */; };
+		0E64D4FE252CA2DF00D21B26 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E64D4FD252CA2DF00D21B26 /* TabButton.swift */; };
+		0E64D503252CA32600D21B26 /* BagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E64D502252CA32600D21B26 /* BagView.swift */; };
+		0E64D508252CA36600D21B26 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E64D507252CA36600D21B26 /* DetailView.swift */; };
+		0E64D50D252CA41E00D21B26 /* ColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E64D50C252CA41E00D21B26 /* ColorButton.swift */; };
+		0E64D512252CA44E00D21B26 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E64D511252CA44E00D21B26 /* CustomCorner.swift */; };
+		0E64D517252CA49A00D21B26 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E64D516252CA49A00D21B26 /* ModelData.swift */; };
+		0E64D530252CB51700D21B26 /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E64D52F252CB51700D21B26 /* Elements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,14 @@
 		0E64D4E0252C9DD700D21B26 /* clothingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clothingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E64D4E4252C9DD700D21B26 /* clothingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clothingAppUITests.swift; sourceTree = "<group>"; };
 		0E64D4E6252C9DD700D21B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E64D4F8252CA23000D21B26 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0E64D4FD252CA2DF00D21B26 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		0E64D502252CA32600D21B26 /* BagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagView.swift; sourceTree = "<group>"; };
+		0E64D507252CA36600D21B26 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		0E64D50C252CA41E00D21B26 /* ColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorButton.swift; sourceTree = "<group>"; };
+		0E64D511252CA44E00D21B26 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		0E64D516252CA49A00D21B26 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		0E64D52F252CB51700D21B26 /* Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +111,8 @@
 		0E64D4C6252C9DD400D21B26 /* clothingApp */ = {
 			isa = PBXGroup;
 			children = (
+				0E64D525252CA98D00D21B26 /* Model */,
+				0E64D51E252CA51100D21B26 /* View */,
 				0E64D4C7252C9DD400D21B26 /* clothingAppApp.swift */,
 				0E64D4C9252C9DD400D21B26 /* ContentView.swift */,
 				0E64D4CB252C9DD600D21B26 /* Assets.xcassets */,
@@ -128,6 +146,28 @@
 				0E64D4E6252C9DD700D21B26 /* Info.plist */,
 			);
 			path = clothingAppUITests;
+			sourceTree = "<group>";
+		};
+		0E64D51E252CA51100D21B26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E64D511252CA44E00D21B26 /* CustomCorner.swift */,
+				0E64D4F8252CA23000D21B26 /* Home.swift */,
+				0E64D4FD252CA2DF00D21B26 /* TabButton.swift */,
+				0E64D502252CA32600D21B26 /* BagView.swift */,
+				0E64D507252CA36600D21B26 /* DetailView.swift */,
+				0E64D50C252CA41E00D21B26 /* ColorButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E64D525252CA98D00D21B26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E64D516252CA49A00D21B26 /* ModelData.swift */,
+				0E64D52F252CB51700D21B26 /* Elements.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +299,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E64D4F9252CA23000D21B26 /* Home.swift in Sources */,
+				0E64D530252CB51700D21B26 /* Elements.swift in Sources */,
+				0E64D512252CA44E00D21B26 /* CustomCorner.swift in Sources */,
+				0E64D508252CA36600D21B26 /* DetailView.swift in Sources */,
+				0E64D4FE252CA2DF00D21B26 /* TabButton.swift in Sources */,
+				0E64D50D252CA41E00D21B26 /* ColorButton.swift in Sources */,
 				0E64D4CA252C9DD400D21B26 /* ContentView.swift in Sources */,
+				0E64D517252CA49A00D21B26 /* ModelData.swift in Sources */,
 				0E64D4C8252C9DD400D21B26 /* clothingAppApp.swift in Sources */,
+				0E64D503252CA32600D21B26 /* BagView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
